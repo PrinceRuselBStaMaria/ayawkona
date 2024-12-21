@@ -2,3 +2,7 @@
 plugins {
     alias(libs.plugins.android.application) apply false
 }
+
+dependencies {
+    implementation("com.google.android.material:material:1.9.0")
+}

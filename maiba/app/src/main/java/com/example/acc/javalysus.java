@@ -20,3 +20,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
+public class JavalysusActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.javalysus); // Ensure this references javalysus.xml
+
+        // Floating Action Button click listener
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(v -> {
+            Toast.makeText(JavalysusActivity.this, "Add New Note", Toast.LENGTH_SHORT).show();
+        });
+    }
+}

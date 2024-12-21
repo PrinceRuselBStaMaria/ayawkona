@@ -14,8 +14,8 @@
         android:layout_weight="1"
         android:gravity="bottom|center"
         android:textSize="60dp"
-        android:text="Welcome"
-        />
+        android:text="Welcome" />
+    
     <TextView
         android:id="@+id/named"
         android:layout_width="match_parent"
@@ -24,4 +24,9 @@
         android:textSize="50sp"
         android:textAlignment="center" />
 
+    <Button
+        android:id="@+id/button_go_to_javalysus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Javalysus" />
 </LinearLayout>
